@@ -1,0 +1,93 @@
+.banner {
+  height: 90vh;
+}
+.banner__cards {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 30px 50px; */
+  margin: 82px 37px;
+}
+.banner__card {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 350px;
+  padding: 0px;
+  /* box-shadow: rgb(134, 131, 131) 2px 2px 5px; */
+  /* box-shadow: 0 5px 10px rgba(154, 160, 185, 0.5),
+    0 15px 40px rgba(166, 173, 201, 0.5); */
+  box-shadow: 3px 3px 10px #333030;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.bannerCard__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+  width: 30%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.notices {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid red; */
+  padding: 15px 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.notice {
+  padding: 5px 2px;
+}
+.notice a {
+  text-decoration: none;
+}
+.bannerCard__heading a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.bannerCard__heading a:hover {
+  /* width: 100%; */
+  border-bottom: 2px solid white;
+}
+
+.bannerCard__heading:hover {
+  width: 35%;
+}
+
+.scroll-btn {
+  bottom: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #fff;
+  padding: 10px 10px 20px;
+  border-radius: 30px;
+}
+.scroll-bar span {
+  border: 2px solid #fff;
+  font-size: 10px;
+  border-radius: 30px;
+}
+.scroll-bar {
+  animation: mover 1s infinite alternate;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
