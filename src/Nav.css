@@ -6,10 +6,12 @@
   top: 0;
   z-index: 1;
   background-color: rgb(24, 24, 24);
+  opacity: 1;
 }
 
 .nav__items {
   font-size: 1.2rem;
+  font-weight: 500;
   /* background-color: rgb(10, 10, 10); */
   display: flex;
   width: 100%;

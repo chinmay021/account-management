@@ -19,6 +19,10 @@
   border-radius: 5px;
   /* flex: 0 0 31%; */
 }
+.club:hover {
+  cursor: pointer;
+  background-color: #000000;
+}
 .club__logo {
   display: flex;
   justify-content: center;
@@ -41,6 +45,6 @@
   color: white;
 }
 
-.club__logo:hover {
-  transform: translateY(-10px) scale(1.05) translateZ(0);
-}
+/* .club__logo:hover {
+  transform: translateY(-10px) scale(1.05);
+} */
