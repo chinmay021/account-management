@@ -3,7 +3,7 @@ import Home from "./Home";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import Login from "./Login";
-import Developer from "./Developer";
+import Developer from "./Pages/developer/Developer";
 import { Switch, Route } from "react-router-dom";
 function App() {
   return (

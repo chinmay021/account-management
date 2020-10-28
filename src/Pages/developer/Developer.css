@@ -1,0 +1,64 @@
+.developer {
+  height: 85.5vh;
+}
+.developer__heading {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 32px 0px;
+}
+.team__card {
+  border-radius: 8px;
+  color: white;
+  height: 378px;
+  width: 285px;
+  margin: 40px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.team__card:hover {
+  transform: scale(1.02);
+  box-shadow: 3px 3px 10px rgb(46, 46, 46);
+  cursor: default;
+}
+
+.profile__pic {
+  display: block;
+  height: 55%;
+  width: 100%;
+  border-radius: 8px;
+}
+.profile__pic:hover {
+  opacity: 70%;
+  background-color: #272727;
+  transition: all 0.4s ease-in-out;
+}
+.team__card h2 {
+  padding-top: 20px;
+
+  text-align: center;
+  color: black;
+}
+.team__card h3 {
+  padding-top: 20px;
+  text-align: center;
+  color: #272727;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons img {
+  height: 20px;
+  width: 20px;
+  margin-top: 30px;
+  /* margin-left: 20px; */
+}
+.icons img:hover {
+  cursor: pointer;
+}
+.team__cards {
+  display: flex;
+  justify-content: center;
+}
