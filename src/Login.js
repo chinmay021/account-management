@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 function Login() {
-  return (  
+  return (
     <div>
       <div className="newcontainer">
         <div className="signup-box">
