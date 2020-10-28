@@ -21,10 +21,13 @@
 }
 
 .bannerCard__heading {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(24, 24, 24);
+  /* background-color: rgb(35, 76, 122); */
+
   width: 30%;
   transition: all 0.5s ease-in;
   border-radius: 10px 0px 0px 10px;
@@ -46,6 +49,7 @@
 
 .notice {
   padding: 5px 2px;
+  font-family: "Montserrat", sans-serif;
 }
 .notice a {
   text-decoration: none;
@@ -54,7 +58,7 @@
   color: white;
   text-decoration: none;
   font-size: 1.4rem;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in;
 }
 
 .bannerCard__heading a:hover {
@@ -63,7 +67,8 @@
 }
 
 .bannerCard__heading:hover {
-  width: 35%;
+  background-color: black;
+  /* background-color: rgb(8, 51, 99); */
 }
 
 .scroll-btn {

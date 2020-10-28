@@ -6,6 +6,20 @@
 .App {
   /* background: linear-gradient(to right, #4b79a1, #283e51); */
   background-image: linear-gradient(170deg, #b621fe, #1fd1f9);
+
   /* border: 2px solid red; */
   /* height: 100vh; */
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }

@@ -2,8 +2,9 @@
   background-color: rgb(24, 24, 24);
 }
 .footer p {
+  font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   padding: 10px;
   margin: 0;
