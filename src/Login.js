@@ -11,9 +11,7 @@ function Login() {
         <div className="textbox">
           <input type="password" placeholder="Password" />
         </div>
-        <div className="button">
-          <input type="button" value="LOGIN" />
-        </div>
+        <button className="button">LOGIN</button>
       </div>
     </div>
   );
