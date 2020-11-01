@@ -1,4 +1,5 @@
 .newcontainer {
+  font-family: "Montserrat", sans-serif;
   width: 100%;
   min-height: 85.5vh;
   /* background-image: linear-gradient(170deg, #b621fe, #1fd1f9); */
@@ -34,7 +35,7 @@
   color: #444444;
   margin: 20px 0 70px 0;
 }
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
@@ -43,7 +44,7 @@
 .col {
   float: left;
   width: 50%;
-}
+} */
 
 .textbox {
   width: 100%;
@@ -53,15 +54,18 @@
 }
 
 .textbox input {
+  font-family: "Montserrat", sans-serif;
   border: none;
   outline: none;
   width: 100%;
   padding: 8px 0;
   color: #333333;
+  font-size: 13px;
   font-weight: 600;
 }
 
 .button input {
+  font-family: "Montserrat", sans-serif;
   width: 90%;
   border-radius: 50px;
   padding: 12px;

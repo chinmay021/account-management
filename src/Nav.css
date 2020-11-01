@@ -33,11 +33,9 @@
   margin-right: 50px;
   list-style: none;
 }
-.nav__item {
-  padding-left: 45px;
-}
 
 .nav__item {
+  padding-left: 45px;
   color: white;
   /* color: black; */
   text-decoration: none;
@@ -49,4 +47,14 @@
 }
 .nav__links:hover {
   border-bottom: 3px solid white;
+}
+
+.nav__links:active {
+  color: black;
+}
+
+@media screen and (max-width: 426px) {
+  .nav__right {
+    overflow: hidden;
+  }
 }
