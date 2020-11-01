@@ -49,10 +49,6 @@
   border-bottom: 3px solid white;
 }
 
-.nav__links:active {
-  color: black;
-}
-
 @media screen and (max-width: 426px) {
   .nav__right {
     overflow: hidden;
