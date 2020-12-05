@@ -1,3 +1,7 @@
+.bannerCard__heading a:hover {
+  color: white;
+  text-decoration: none;
+}
 .banner {
   height: 90vh;
 }
@@ -52,6 +56,9 @@
   font-family: "Montserrat", sans-serif;
 }
 .notice a {
+  text-decoration: none;
+}
+.notice a:hover {
   text-decoration: none;
 }
 .bannerCard__heading a {

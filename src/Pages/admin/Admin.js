@@ -1,9 +1,9 @@
 import React from "react";
 
-function Admin() {
+function Admin({ userId }) {
   return (
     <>
-      <h1>hello Admin!</h1>
+      <h1>hello {userId}!!</h1>
     </>
   );
 }

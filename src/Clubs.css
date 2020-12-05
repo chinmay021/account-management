@@ -24,7 +24,7 @@
   /* flex: 0 0 31%; */
 }
 .club:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   background-color: #000000;
   /* background-color: rgb(8, 51, 99); */
 
@@ -56,6 +56,9 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/* .club span:hover {
+  border-bottom: 2px solid white;
+} */
 /* .club__logo:hover {
   transform: translateY(-10px) scale(1.05);
 } */

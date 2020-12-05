@@ -13,7 +13,10 @@ function Nav() {
       }
     });
     return () => {
-      window.removeEventListener("scroll");
+      window.removeEventListener("scroll", () => {
+        if (window.scrollY < 100) handleScroll(false);
+        else handleScroll(true);
+      });
     };
   }, []);
   return (

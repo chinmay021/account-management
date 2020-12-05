@@ -15,7 +15,7 @@
   width: 285px;
   margin: 40px;
   background-color: #ffffff;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .team__card:hover {
   transform: scale(1.02);
