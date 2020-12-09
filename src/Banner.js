@@ -8,52 +8,57 @@ function Banner() {
         <div className="banner__card">
           <div className="bannerCard__heading">
             <span>
-              <a href="/"> Notices</a>
+              <a href="#/"> Notices</a>
             </span>
           </div>
           <ul className="notices">
             <li className="notice">
-              <a href="/">IEEE presents CODEARENA 2.0</a>
+              {/* // eslint-disable-next-line */}
+              <a href="#/">IEEE presents CODEARENA 2.0</a>
             </li>
             <li className="notice">
-              <a href="/">IOT Workshop</a>
+              {/* // eslint-disable-next-line */}
+              <a href="#/">IOT Workshop</a>
             </li>
             <li className="notice">
-              <a href="/">
+              {/* // eslint-disable-next-line */}
+              <a href="#/">
                 Embrace and Empower yourself in International Women's day
               </a>
             </li>
             <li className="notice">
-              <a href="/">PES Day 2020</a>
+              {/* // eslint-disable-next-line */}
+              <a href="#/">PES Day 2020</a>
             </li>
             <li className="notice">
-              <a href="/">CODEATHON</a>
+              {/* // eslint-disable-next-line */}
+              <a href="#/">CODEATHON</a>
             </li>
           </ul>
         </div>
         <div className="banner__card">
           <div className="bannerCard__heading">
             <span>
-              <a href="/">Events</a>
+              <a href="#/">Events</a>
             </span>
           </div>
           <ul className="notices">
             <li className="notice">
-              <a href="/">IEEE presents CODEARENA 2.0</a>
+              <a href="#/">IEEE presents CODEARENA 2.0</a>
             </li>
             <li className="notice">
-              <a href="/">IOT Workshop</a>
+              <a href="#/">IOT Workshop</a>
             </li>
             <li className="notice">
-              <a href="/">
+              <a href="#/">
                 Embrace and Empower yourself in International Women's day
               </a>
             </li>
             <li className="notice">
-              <a href="/">PES Day 2020</a>
+              <a href="#/">PES Day 2020</a>
             </li>
             <li className="notice">
-              <a href="/">CODEATHON</a>
+              <a href="#/">CODEATHON</a>
             </li>
           </ul>
         </div>

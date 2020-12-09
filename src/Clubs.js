@@ -22,7 +22,6 @@ function Clubs() {
       <ul className="clubs">
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios-filled/60/000000/microphone.png"/> */}
             <img src={mic} alt="TEDx SITB" />
           </div>
           <Link
@@ -35,7 +34,6 @@ function Clubs() {
 
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/cricket.png"/> */}
             <img src={cricketLogo} alt="cricket" />
           </div>
           <Link
@@ -47,7 +45,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/badminton.png"/>  */}
             <img src={shuttle_cock} alt="badminton" />
           </div>
           <Link
@@ -59,7 +56,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/basketball.png"/> */}
             <img src={basketball} alt="basketball" />
           </div>
           <Link
@@ -71,7 +67,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/wired/60/000000/robot.png"/> */}
             <img src={robots} alt="robotics" />
           </div>
           <Link
@@ -83,7 +78,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/engineering.png"/> */}
             <img src={ieee} alt="ieee" />
           </div>
           <Link
@@ -95,7 +89,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/easy-listening.png"/> */}
             <img src={headphones} alt="music" />
           </div>
           <Link
@@ -107,7 +100,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/dancing.png"/> */}
             <img src={dancer} alt="DDX" />
           </div>
           <Link
@@ -119,7 +111,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/50/000000/green-earth.png"/> */}
             <img src={green_earth} alt="green" />
           </div>
           <Link
@@ -131,7 +122,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/theatre-mask.png"/> */}
             <img src={film} alt="theatre" />
           </div>
           <Link
@@ -143,7 +133,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/student-male--v1.png"/> */}
             <img src={mortarboard} alt="scholar" />
           </div>
           <Link
@@ -155,7 +144,6 @@ function Clubs() {
         </div>
         <div className="club">
           <div className="club__logo">
-            {/* <img src="https://img.icons8.com/ios/60/000000/camera.png"/> */}
             <img src={camera} alt="photography" />
           </div>
           <Link

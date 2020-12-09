@@ -1,16 +1,12 @@
-import { useContext, useState, useEffect } from "react";
+import { useContext } from "react";
 import React from "react";
 import { Redirect } from "react-router-dom";
 import { useSortBy, useTable, usePagination } from "react-table";
-import { fetchTransactions } from "../../axios/requests";
 import { GlobalContext } from "../../context/GlobalState";
 
 function AllTransactions() {
   // const [alltransaction, setAllTransaction] = useState([]);
   const { transactions } = useContext(GlobalContext);
-  useEffect(() => {
-    console.log(transactions);
-  }, []);
 
   const data = React.useMemo(() => transactions, [transactions]);
 

@@ -27,7 +27,7 @@ export const checkLogin = async (username, password) => {
 export const fetchTransactions = async (clubname) => {
   try {
     const { data } = await axios.get(`/api/${clubname}expense/show`);
-    console.log(data.response);
+    // console.log(data.response);
     return data.response;
   } catch (error) {
     console.log(error.message);
@@ -65,7 +65,7 @@ export const addMembers = async ({ Name, Sic, Branch, Contact }) => {
       `/api/${sessionStorage.getItem("clubName")}member/add`,
       { Name, Sic, Branch, Contact }
     );
-    console.log(data.message);
+    // console.log(data.message);
     return data.message;
   } catch (error) {
     console.log(error.message);
@@ -77,7 +77,7 @@ export const removeMembers = async ({ Name, Sic }) => {
       `/api/${sessionStorage.getItem("clubName")}member/destroy`,
       { Sic }
     );
-    console.log(data.message);
+    // console.log(data.message);
     return data.message;
   } catch (error) {
     console.log(error.message);

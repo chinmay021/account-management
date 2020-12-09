@@ -55,10 +55,14 @@
   box-shadow: 2px 1px 20px 0px black;
   font-family: "Montserrat", sans-serif;
   transition: all 0.2s ease;
+  min-width: 325px;
+  min-height: 200px;
 }
 .club__official__title {
   text-align: center;
   margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
 }
 .club__official__name {
   text-align: center;

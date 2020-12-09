@@ -77,27 +77,24 @@ function IndividualClub({ clubName }) {
           <div className="club__oficials__heading">Club Officials</div>
           <div className="club__official__wrapper">
             <div className="club__official">
-              <div className="club__official__title">Faculty</div>
-              <div className="club__official__name">Mr. Faculty</div>
+              <div className="club__official__title">FIC</div>
+              <div className="club__official__name">Mr. Pradipta </div>
               <div className="club__official__details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                quos.
-              </div>
-            </div>
-            <div className="club__official">
-              <div className="club__official__title">President</div>
-              <div className="club__official__name">Mr. Faculty</div>
-              <div className="club__official__details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                quos.
+                Contact : 8764287220
               </div>
             </div>
             <div className="club__official">
               <div className="club__official__title">Secretary</div>
-              <div className="club__official__name">Mr. Faculty</div>
+              <div className="club__official__name">Rohit Kumar</div>
               <div className="club__official__details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                quos.
+                Contact : 7571575650
+              </div>
+            </div>
+            <div className="club__official">
+              <div className="club__official__title">Vice Secretary</div>
+              <div className="club__official__name">Sourav Kumar</div>
+              <div className="club__official__details">
+                Contact : 8276451836
               </div>
             </div>
           </div>
