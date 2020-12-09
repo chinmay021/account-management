@@ -125,7 +125,7 @@ table tbody tr {
   display: none;
 } */
 .table__pagination button,
-input {
+.table__pagination input {
   cursor: pointer;
   width: 50px;
   padding: 5px;

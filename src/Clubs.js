@@ -26,7 +26,7 @@ function Clubs() {
             <img src={mic} alt="TEDx SITB" />
           </div>
           <Link
-            to={`/club/tedx-sitb`}
+            to={`/club/tedx`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>TEDx SITB</span>
@@ -39,7 +39,7 @@ function Clubs() {
             <img src={cricketLogo} alt="cricket" />
           </div>
           <Link
-            to={`/club/cricket-club`}
+            to={`/club/cricket`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Cricket Club</span>
@@ -51,7 +51,7 @@ function Clubs() {
             <img src={shuttle_cock} alt="badminton" />
           </div>
           <Link
-            to={`/club/badminton-club`}
+            to={`/club/badminton`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Badminton Club</span>
@@ -63,7 +63,7 @@ function Clubs() {
             <img src={basketball} alt="basketball" />
           </div>
           <Link
-            to={`/club/basketball-club`}
+            to={`/club/basketball`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Basketball Club</span>
@@ -75,7 +75,7 @@ function Clubs() {
             <img src={robots} alt="robotics" />
           </div>
           <Link
-            to={`/club/robotics-club`}
+            to={`/club/robotics`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Robotics Club</span>
@@ -87,7 +87,7 @@ function Clubs() {
             <img src={ieee} alt="ieee" />
           </div>
           <Link
-            to={`/club/ieee-club`}
+            to={`/club/ieee`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>IEEE Club</span>
@@ -99,7 +99,7 @@ function Clubs() {
             <img src={headphones} alt="music" />
           </div>
           <Link
-            to={`/club/music-club`}
+            to={`/club/music`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Music Club</span>
@@ -111,7 +111,7 @@ function Clubs() {
             <img src={dancer} alt="DDX" />
           </div>
           <Link
-            to={`/club/ddx-club`}
+            to={`/club/ddx`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>DDX Club</span>
@@ -123,7 +123,7 @@ function Clubs() {
             <img src={green_earth} alt="green" />
           </div>
           <Link
-            to={`/club/green-club`}
+            to={`/club/green`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Green Club</span>
@@ -135,7 +135,7 @@ function Clubs() {
             <img src={film} alt="theatre" />
           </div>
           <Link
-            to={`/club/theatre-club`}
+            to={`/club/theatre`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Theatre Club</span>
@@ -147,7 +147,7 @@ function Clubs() {
             <img src={mortarboard} alt="scholar" />
           </div>
           <Link
-            to={`/club/scholar-club`}
+            to={`/club/scholar`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Scholar Club</span>
@@ -159,7 +159,7 @@ function Clubs() {
             <img src={camera} alt="photography" />
           </div>
           <Link
-            to={`/club/photography-club`}
+            to={`/club/photography`}
             style={{ textDecoration: "none", color: "white" }}
           >
             <span>Photography Club</span>

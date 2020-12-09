@@ -52,7 +52,9 @@
 }
 
 .notice {
-  padding: 5px 2px;
+  list-style: circle;
+  margin-left: 10px;
+  padding-bottom: 20px;
   font-family: "Montserrat", sans-serif;
 }
 .notice a {

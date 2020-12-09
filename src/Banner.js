@@ -13,19 +13,21 @@ function Banner() {
           </div>
           <ul className="notices">
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">IEEE presents CODEARENA 2.0</a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">IOT Workshop</a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">
+                Embrace and Empower yourself in International Women's day
+              </a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">PES Day 2020</a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">CODEATHON</a>
             </li>
           </ul>
         </div>
@@ -37,19 +39,21 @@ function Banner() {
           </div>
           <ul className="notices">
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">IEEE presents CODEARENA 2.0</a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">IOT Workshop</a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">
+                Embrace and Empower yourself in International Women's day
+              </a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">PES Day 2020</a>
             </li>
             <li className="notice">
-              <a href="/">This is a notice please check.</a>
+              <a href="/">CODEATHON</a>
             </li>
           </ul>
         </div>

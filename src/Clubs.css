@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.clubs__container {
+  margin-top: 30px;
+}
 .clubs {
   font-family: "Montserrat", sans-serif;
   color: white;

@@ -3,6 +3,7 @@ import "./Nav.css";
 import { Link } from "react-router-dom";
 import logo from "./assets/logo.png";
 function Nav() {
+  const [loginStatus, setLoginStatus] = useState(false);
   const [scroll, handleScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -12,6 +13,7 @@ function Nav() {
         handleScroll(false);
       }
     });
+
     return () => {
       window.removeEventListener("scroll", () => {
         if (window.scrollY < 100) handleScroll(false);
@@ -19,6 +21,27 @@ function Nav() {
       });
     };
   }, []);
+
+  useEffect(() => {
+    // console.log(`hello`);
+    if (sessionStorage.getItem("token")) {
+      setLoginStatus(true);
+      document.getElementById("login__button").innerHTML = "logout";
+    } else {
+      setLoginStatus(false);
+      document.getElementById("login__button").innerHTML = "login";
+    }
+  }, [loginStatus]);
+
+  function changeLoginButton() {
+    const value = document.getElementById("login__button").innerHTML;
+    if (value === "logout") {
+      sessionStorage.removeItem("token");
+      sessionStorage.removeItem("clubName");
+      setLoginStatus(false);
+    }
+  }
+
   return (
     <div className={`navbar ${scroll && "scroll"}`}>
       <ul className="nav__items">
@@ -33,6 +56,18 @@ function Nav() {
           </Link>
         </li>
         <ul className="nav__right">
+          <Link
+            to={`/login/sucess/${sessionStorage.getItem("clubName")}`}
+            style={{ textDecoration: "none" }}
+          >
+            <li
+              className={` nav__item ${
+                sessionStorage.getItem("clubName") === null && "remove__display"
+              }`}
+            >
+              <span className="nav__links">dashboard</span>
+            </li>
+          </Link>
           <Link to="/" style={{ textDecoration: "none" }}>
             <li className="nav__item">
               <span className="nav__links">home</span>
@@ -40,7 +75,11 @@ function Nav() {
           </Link>
           <Link to="/login" style={{ textDecoration: "none" }}>
             <li className="nav__item">
-              <span className="nav__links">login</span>{" "}
+              <span
+                className="nav__links"
+                id="login__button"
+                onClick={changeLoginButton}
+              ></span>
             </li>
           </Link>
           <Link to="/developer" style={{ textDecoration: "none" }}>
